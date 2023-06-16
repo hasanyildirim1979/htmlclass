@@ -1,6 +1,16 @@
-<!DOCTYPE html>
-<html>
+la<!DOCTYPE html>
+<htm>
+    <head>
+        <title>Başlık</title>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JS">
+    <meta name="description" content="Free Web Tutorial">
+    <meta name="author" content="hasan yıldirim">
+    <meta name="viewport" content="width=device-width, initial scale 1.0">
+
     <body>
+        
         <table align="center" valign="center" bgcolor="yellow" border="4" cellpadding="8" cellspacing="8" width="75%" height="300" style="border-collapse:collapse">
 
         <thead>
@@ -84,7 +94,83 @@
         <dd>-white cold drink</dd>
     </dl>
 
+    <h3>Entity Name - Entity Number</h3>
+    <h3>&lt; &#60; </h3>
+    <h3>&gt; &#62; </h3>
+    <h3>&copy; &#169; </h3>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for=''lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+    </form>
+
+    <form>
+        <input type="radio" id="html" value="html" name="language">
+        <label for=''html">HTML</label><br>
+        <input type="radio" id="css" value="css" name="language">
+        <label for=''css">CSS</label><br>
+        <input type="radio" id="javascript" value="javascript" name="language">
+        <label for=''javascript">Javascript</label><br>
+    </form>
+
+    <form>
+        <input type="checkbox" id="vehicle1" value="bike'' name="vehicle1">
+        <label for=''vehicle1">I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" value="car'' name="vehicle2">
+        <label for=''vehicle2">I have a car</label><br>
+        <input type="submit" value="Lütfen Tıklayınız">
+    </form>
+
+    <form>
+       <label>Choose a car</label>
+       <select size="2" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+       </select>
+    </form>
+
+    <form>
+        <textarea rows="10" cols="30">Lütfen burayı doldurunuz!</textarea><br>
+        <button type="button" onclick="alert('Hello World')">Click me</button>
+    </form>
     
-    
+    <form>
+        <fieldset>
+            <legend>Personel</legend>
+            <label>First Name</label>
+            <input type="text"><br>
+            <label>Last Name</label>
+            <input type="text"><br>
+        </fieldset>      
+    </form>
+
+    <form>
+        <h2>Datalist Elements</h2>
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Opera">Opera</option>
+            <option value="Safari">Safari</option>
+        </datalist>
+    </form>
+
+    <form>
+        <label>Enter Password</label><br>
+        <input type="password"><br>
+        <label>Select Your Favourite Color:</label>
+        <input type="color"><br>
+        <label>Birthday:</label>
+        <input type="date"><br>
+        <label>Enter Date Before 2023-12-31:</label>
+        <input type="date" max="2023-12-31"><br>
+        <label>Select a File:</label><br>
+        <input type="file">
+    </form>
+
     </body>
-</html>  
+</html>
